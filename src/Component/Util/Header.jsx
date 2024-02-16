@@ -6,7 +6,7 @@ const Header = () => {
       <header>
         <nav className="flex  justify-evenly bg-slate-400 border h-24">
           <div className="flex  items-center ">
-            <Link>
+            <Link to={"/home"}>
               <img
                 src="https://seeklogo.com/images/M/meesho-logo-2E20AB77E8-seeklogo.com.png"
                 alt="logo"
@@ -30,7 +30,7 @@ const Header = () => {
             {/* login */}
             <Link to={"/login"}>
               <b>login</b>/
-              <Link to={"/register"}>
+              <Link to={"/customer/register"}>
                 <b>signup</b>
               </Link>
             </Link>
